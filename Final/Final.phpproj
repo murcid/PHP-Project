@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Final</Name>
+    <ProjectGuid>73777056-2766-4b38-b9a1-ef34cf54649e</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Final</AssemblyName>
+    <SpecificPageValue>login.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AddCustomer.php" />
+    <Compile Include="AddOrder.php" />
+    <Compile Include="buttons.php" />
+    <Compile Include="ChangeCustomers.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="header.php" />
+    <Compile Include="index.php" />
+    <Compile Include="links.php" />
+    <Compile Include="login.php" />
+    <Compile Include="php\ChangeCustomerForm.php" />
+    <Compile Include="php\DBClose.php" />
+    <Compile Include="php\DBConnect.php" />
+    <Compile Include="php\DBCredentials.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="php\insert.php" />
+    <Compile Include="php\insertOrder.php" />
+    <Compile Include="php\selectcustomers.php" />
+    <Compile Include="php\SelectOneOrder.php" />
+    <Compile Include="php\SelectOrders.php" />
+    <Compile Include="php\SelectProducts.php" />
+    <Compile Include="php\Update.php" />
+    <Compile Include="start.php" />
+    <Compile Include="session.php" />
+    <Compile Include="ViewEditCustomers.php" />
+    <Compile Include="ViewOrder.php" />
+    <Compile Include="ViewOrders.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="sql\" />
+    <Folder Include="php\" />
+    <Folder Include="styles\" />
+    <Folder Include="scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\butterfly.jpg" />
+    <Content Include="images\prom1.jpg" />
+    <Content Include="images\prom10.jpg" />
+    <Content Include="images\prom2.jpg" />
+    <Content Include="images\prom3.jpg" />
+    <Content Include="images\prom4.jpg" />
+    <Content Include="images\prom5.jpg" />
+    <Content Include="images\prom6.jpg" />
+    <Content Include="images\prom7.jpg" />
+    <Content Include="images\prom8.jpg" />
+    <Content Include="images\prom9.jpg" />
+    <Content Include="scripts\jquery-2.2.3.min.js" />
+    <Content Include="scripts\scripts.js" />
+    <Content Include="sql\dmurciamontoya.sql" />
+    <Content Include="styles\styles.css" />
+    <Content Include="images\violet.jpg" />
+  </ItemGroup>
+</Project>
